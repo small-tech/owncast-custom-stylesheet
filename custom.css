@@ -1,0 +1,148 @@
+/* Make the font sizes larger throughout (reset to most browsers’ default value). */
+html {
+  font-size: 16px;
+}
+
+/* Continue the gradient from the profile image to fill the available space in the video poster. */
+#oc-custom-poster {
+  background: linear-gradient(
+    to top, 
+    #ef857f 9.09%, 
+    #fec24f 9.09%, 
+    #fec24f 18.18%, 
+    #76bcc7 18.18%, 
+    #76bcc7 27.27%, 
+    #a4b8b6 27.27%,
+    #a4b8b6 36.36%,
+    #92aabe 36.36%,
+    #92aabe 45.45%,
+    #dcceb6 45.45%,
+    #dcceb6 54.54%,
+    #e9b7c7 54.54%,
+    #e9b7c7 63.63%,
+    #a4b8b6 63.63%,
+    #a4b8b6 72.72%,
+    #76bcc7 72.72%,
+    #76bcc7 81.81%,
+    #fec24f 81.81%,
+    #fec24f 90.90%,
+    #ef857f 90.90%
+  );
+}
+
+/* Have some fun with the followers list (make each follower a different colour,
+   based on the Small Tech colours). Note the colours are the bg, text-on-colour, and 
+   text-on-white colours from the small-tech.org site, respectively. */
+
+/* Red-Pink */
+.following-list-follower:nth-of-type(1) { background-color: #FFC3A7; }
+.following-list-follower:nth-of-type(1) > div > p:first-of-type { color: #82073B; }
+.following-list-follower:nth-of-type(1) > div > p:nth-of-type(2) { color: #97285A; }
+
+/* Lilac */
+.following-list-follower:nth-of-type(2) { background-color: #E9EEFB; }
+.following-list-follower:nth-of-type(2) > div > p:first-of-type { color: #422D50; }
+.following-list-follower:nth-of-type(2) > div > p:nth-of-type(2) { color: #694D7B; }
+
+/* Grey */
+.following-list-follower:nth-of-type(3) { background-color: #C7D4CC; }
+.following-list-follower:nth-of-type(3) > div > p:first-of-type { color: #304349; }
+.following-list-follower:nth-of-type(3) > div > p:nth-of-type(2) { color: #465C62; }
+
+/* Lime */
+.following-list-follower:nth-of-type(4) { background-color: #F0F9A4; }
+.following-list-follower:nth-of-type(4) > div > p:first-of-type { color: #0C5820; }
+.following-list-follower:nth-of-type(4) > div > p:nth-of-type(2) { color: #146128; }
+
+/* Pink */
+.following-list-follower:nth-of-type(5) { background-color: #F3D7E0; }
+.following-list-follower:nth-of-type(5) > div > p:first-of-type { color: #64374C; }
+.following-list-follower:nth-of-type(5) > div > p:nth-of-type(2) { color: #804661; }
+
+/* Beige */
+.following-list-follower:nth-of-type(6) { background-color: #EFE6D5; }
+.following-list-follower:nth-of-type(6) > div > p:first-of-type { color: #644337; }
+.following-list-follower:nth-of-type(6) > div > p:nth-of-type(2) { color: #725042; }
+
+/* Blue */
+.following-list-follower:nth-of-type(7) { background-color: #AFE1E8; }
+.following-list-follower:nth-of-type(7) > div > p:first-of-type { color: #154652; }
+.following-list-follower:nth-of-type(7) > div > p:nth-of-type(2) { color: #1D6071; }
+
+/* Green */
+.following-list-follower:nth-of-type(8) { background-color: #CBE89B; }
+.following-list-follower:nth-of-type(8) > div > p:first-of-type { color: #004E48; }
+.following-list-follower:nth-of-type(8) > div > p:nth-of-type(2) { color: #00625B; }
+
+/* Yellow */
+.following-list-follower:nth-of-type(9) { background-color: #FFF697; }
+.following-list-follower:nth-of-type(9) > div > p:first-of-type { color: #724F00; }
+.following-list-follower:nth-of-type(9) > div > p:nth-of-type(2) { color: #804C00; }
+
+/* Orange */
+.following-list-follower:nth-of-type(10) { background-color: #FEE59E; }
+.following-list-follower:nth-of-type(10) > div > p:first-of-type { color: #783806; }
+.following-list-follower:nth-of-type(10) > div > p:nth-of-type(2) { color: #904307; }
+
+/* Stormy Blue */
+.following-list-follower:nth-of-type(11) { background-color: #C1D0DD; }
+.following-list-follower:nth-of-type(11) > div > p:first-of-type { color: #303B4B; }
+.following-list-follower:nth-of-type(11) > div > p:nth-of-type(2) { color: #495972; }
+
+/* Don’t make text too thin. */
+.font-thin {
+  font-weight: 400;
+}
+
+/* Make colours match small-tech.org site. */
+.bg-gray-300 {
+  background-color: #ffffff;
+}
+
+.text-indigo-600 {
+  color: #304349;
+}
+
+.text-grey-800 {
+  color: #1D6071;
+}
+
+/* Make links match small-tech.org site. */
+#extra-user-content a {
+  color: #154652;
+  text-decoration: revert;
+  text-decoration-color: #154652;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.08em;
+}
+
+#extra-user-content p:first-of-type {
+  font-weight: 600;
+}
+
+#stream-summary {
+  font-size: large;
+}
+
+/* Make tab bar match small-tech.org site. */
+
+div [role="tablist"] {
+}
+
+.tab-bar [role="tab"] {
+  font-size: larger;
+  font-weight: normal;
+}
+
+.tab-bar [role="tab"][aria-selected="true"] {
+  color: #154652;
+  background-color: #AFE1E8;
+  font-weight: bold;
+}
+
+/* Useful to keep in case we need to quickly check the version but otherwise no need to display this to everyone. We link to Owncast in the site description anyway. */
+footer {
+  display: none !important;
+}
+
