@@ -35,59 +35,59 @@ html {
    text-on-white colours from the small-tech.org site, respectively. */
 
 /* Red-Pink */
-.following-list-follower:nth-of-type(1) { background-color: #FFC3A7; }
-.following-list-follower:nth-of-type(1) > div > p:first-of-type { color: #82073B; }
-.following-list-follower:nth-of-type(1) > div > p:nth-of-type(2) { color: #97285A; }
+.following-list-follower:nth-of-type(1n) { background-color: #FFC3A7; }
+.following-list-follower:nth-of-type(1n) > div > p:first-of-type { color: #82073B; }
+.following-list-follower:nth-of-type(1n) > div > p:nth-of-type(2) { color: #97285A; }
 
 /* Lilac */
-.following-list-follower:nth-of-type(2) { background-color: #E9EEFB; }
-.following-list-follower:nth-of-type(2) > div > p:first-of-type { color: #422D50; }
-.following-list-follower:nth-of-type(2) > div > p:nth-of-type(2) { color: #694D7B; }
+.following-list-follower:nth-of-type(2n) { background-color: #E9EEFB; }
+.following-list-follower:nth-of-type(2n) > div > p:first-of-type { color: #422D50; }
+.following-list-follower:nth-of-type(2n) > div > p:nth-of-type(2) { color: #694D7B; }
 
 /* Grey */
-.following-list-follower:nth-of-type(3) { background-color: #C7D4CC; }
-.following-list-follower:nth-of-type(3) > div > p:first-of-type { color: #304349; }
-.following-list-follower:nth-of-type(3) > div > p:nth-of-type(2) { color: #465C62; }
+.following-list-follower:nth-of-type(3n) { background-color: #C7D4CC; }
+.following-list-follower:nth-of-type(3n) > div > p:first-of-type { color: #304349; }
+.following-list-follower:nth-of-type(3n) > div > p:nth-of-type(2) { color: #465C62; }
 
 /* Lime */
-.following-list-follower:nth-of-type(4) { background-color: #F0F9A4; }
-.following-list-follower:nth-of-type(4) > div > p:first-of-type { color: #0C5820; }
-.following-list-follower:nth-of-type(4) > div > p:nth-of-type(2) { color: #146128; }
+.following-list-follower:nth-of-type(4n) { background-color: #F0F9A4; }
+.following-list-follower:nth-of-type(4n) > div > p:first-of-type { color: #0C5820; }
+.following-list-follower:nth-of-type(4n) > div > p:nth-of-type(2) { color: #146128; }
 
 /* Pink */
-.following-list-follower:nth-of-type(5) { background-color: #F3D7E0; }
-.following-list-follower:nth-of-type(5) > div > p:first-of-type { color: #64374C; }
-.following-list-follower:nth-of-type(5) > div > p:nth-of-type(2) { color: #804661; }
+.following-list-follower:nth-of-type(5n) { background-color: #F3D7E0; }
+.following-list-follower:nth-of-type(5n) > div > p:first-of-type { color: #64374C; }
+.following-list-follower:nth-of-type(5n) > div > p:nth-of-type(2) { color: #804661; }
 
 /* Beige */
-.following-list-follower:nth-of-type(6) { background-color: #EFE6D5; }
-.following-list-follower:nth-of-type(6) > div > p:first-of-type { color: #644337; }
-.following-list-follower:nth-of-type(6) > div > p:nth-of-type(2) { color: #725042; }
+.following-list-follower:nth-of-type(6n) { background-color: #EFE6D5; }
+.following-list-follower:nth-of-type(6n) > div > p:first-of-type { color: #644337; }
+.following-list-follower:nth-of-type(6n) > div > p:nth-of-type(2) { color: #725042; }
 
 /* Blue */
-.following-list-follower:nth-of-type(7) { background-color: #AFE1E8; }
-.following-list-follower:nth-of-type(7) > div > p:first-of-type { color: #154652; }
-.following-list-follower:nth-of-type(7) > div > p:nth-of-type(2) { color: #1D6071; }
+.following-list-follower:nth-of-type(7n) { background-color: #AFE1E8; }
+.following-list-follower:nth-of-type(7n) > div > p:first-of-type { color: #154652; }
+.following-list-follower:nth-of-type(7n) > div > p:nth-of-type(2) { color: #1D6071; }
 
 /* Green */
-.following-list-follower:nth-of-type(8) { background-color: #CBE89B; }
-.following-list-follower:nth-of-type(8) > div > p:first-of-type { color: #004E48; }
-.following-list-follower:nth-of-type(8) > div > p:nth-of-type(2) { color: #00625B; }
+.following-list-follower:nth-of-type(8n) { background-color: #CBE89B; }
+.following-list-follower:nth-of-type(8n) > div > p:first-of-type { color: #004E48; }
+.following-list-follower:nth-of-type(8n) > div > p:nth-of-type(2) { color: #00625B; }
 
 /* Yellow */
-.following-list-follower:nth-of-type(9) { background-color: #FFF697; }
-.following-list-follower:nth-of-type(9) > div > p:first-of-type { color: #724F00; }
-.following-list-follower:nth-of-type(9) > div > p:nth-of-type(2) { color: #804C00; }
+.following-list-follower:nth-of-type(9n) { background-color: #FFF697; }
+.following-list-follower:nth-of-type(9n) > div > p:first-of-type { color: #724F00; }
+.following-list-follower:nth-of-type(9n) > div > p:nth-of-type(2) { color: #804C00; }
 
 /* Orange */
-.following-list-follower:nth-of-type(10) { background-color: #FEE59E; }
-.following-list-follower:nth-of-type(10) > div > p:first-of-type { color: #783806; }
-.following-list-follower:nth-of-type(10) > div > p:nth-of-type(2) { color: #904307; }
+.following-list-follower:nth-of-type(10n) { background-color: #FEE59E; }
+.following-list-follower:nth-of-type(10n) > div > p:first-of-type { color: #783806; }
+.following-list-follower:nth-of-type(10n) > div > p:nth-of-type(2) { color: #904307; }
 
 /* Stormy Blue */
-.following-list-follower:nth-of-type(11) { background-color: #C1D0DD; }
-.following-list-follower:nth-of-type(11) > div > p:first-of-type { color: #303B4B; }
-.following-list-follower:nth-of-type(11) > div > p:nth-of-type(2) { color: #495972; }
+.following-list-follower:nth-of-type(11n) { background-color: #C1D0DD; }
+.following-list-follower:nth-of-type(11n) > div > p:first-of-type { color: #303B4B; }
+.following-list-follower:nth-of-type(11n) > div > p:nth-of-type(2) { color: #495972; }
 
 /* Don’t make text too thin. */
 .font-thin {
@@ -126,9 +126,6 @@ html {
 }
 
 /* Make tab bar match small-tech.org site. */
-
-div [role="tablist"] {
-}
 
 .tab-bar [role="tab"] {
   font-size: larger;
